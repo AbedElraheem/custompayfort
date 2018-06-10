@@ -30,7 +30,7 @@ if(isset($_GET['download']) and $_GET['download'] == '2'){
 
 
 
-include_once 'style.php';
+
 
 
 add_action('admin_menu', function() {
