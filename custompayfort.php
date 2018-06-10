@@ -1,4 +1,14 @@
 <?php
+/*
+Plugin Name: Payfort Plugin
+Plugin URI: php-jo.com
+Description: Add custom payfort for najah.
+Author: AbedElraheem
+Version:  0.0.5
+Author URI: php-jo.com
+GitHub Plugin URI: afragen/github-updater
+GitHub Plugin URI: https://github.com/afragen/github-updater
+*/
 if(isset($_GET['download']) and $_GET['download'] == '1'){
     header('Content-Type: text/csv; charset=utf-8');
     header('Content-Disposition: attachment; filename=SuccessPayments.csv');
@@ -16,17 +26,6 @@ if(isset($_GET['download']) and $_GET['download'] == '2'){
     exit();
 }
 
-/*
-Plugin Name: Payfort Plugin
-Plugin URI: php-jo.com
-Description: Add custom payfort for najah.
-Author: AbedElraheem
-Version:  0.0.5
-Author URI: php-jo.com
-GitHub Plugin URI: afragen/github-updater
-GitHub Plugin URI: https://github.com/afragen/github-updater
-
-*/
 
 
 
