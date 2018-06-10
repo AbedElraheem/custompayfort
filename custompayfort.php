@@ -38,7 +38,7 @@ if (is_admin()) { // note the use of is_admin() to double check that this is hap
         'api_url' => 'https://api.github.com/repos/AbedElraheem/custompayfort', // the GitHub API url of your GitHub repo
         'raw_url' => 'https://raw.github.com/username/custompayfort/master', // the GitHub raw url of your GitHub repo
         'github_url' => 'https://github.com/username/custompayfort', // the GitHub url of your GitHub repo
-        'zip_url' => 'https://github.com/username/custompayfort/zipball/master', // the zip url of the GitHub repo
+        'zip_url' => 'https://github.com/AbedElraheem/custompayfort/archive/master.zip', // the zip url of the GitHub repo
         'sslverify' => true, // whether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
         'requires' => '4.0', // which version of WordPress does your plugin require?
         'tested' => '4.3', // which version of WordPress is your plugin tested up to?
