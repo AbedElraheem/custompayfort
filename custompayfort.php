@@ -4,7 +4,7 @@ Plugin Name: Payfort Plugin
 Plugin URI: php-jo.com
 Description: Add custom payfort for najah.
 Author: AbedElraheem
-Version:  1.0.1
+Version:  2.0.0 
 Author URI: php-jo.com
 GitHub Plugin URI: AbedElraheem/custompayfort
 */
